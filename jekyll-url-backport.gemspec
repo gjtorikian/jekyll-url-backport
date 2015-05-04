@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-url-backport'
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ['Garen Torikian']
   spec.email         = ['gjtorikian@gmail.com']
   spec.summary       = "A backport of Jekyll 2.5.3's url.rb class (for use in GitHub Pages)"
